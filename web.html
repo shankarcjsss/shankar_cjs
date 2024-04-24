@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Layout Example</title>
+</head>
+<body>
+  <style>
+    *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: antiquewhite;
+        }
+        .jam{
+          text-align: center;
+        }
+        .man{
+          text-align: center;
+        }
+
+        
+        section{
+            width: 100%;
+            margin:0px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+            flex-wrap: wrap;
+            padding: 25px;
+        }
+        .content{
+            flex:1;
+            max-width: 400px;
+            padding-right: 25px;
+      
+        }
+        .content p{
+            font-size: 22px;
+            margin-right: 100px;
+            padding: 30px;
+            max-width: 500px;
+        }
+        .content h2{
+          margin-right: 20px;
+        }
+        .ss img{
+          max-width:200px ;
+    
+        }
+        
+        .container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+  }
+  .image-box {
+    width: 300px;
+    height: auto;
+    margin: 10px;
+    margin-top: 40px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative; /* Position relative for absolute positioning */
+  }
+  .image-box img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    background-color: aliceblue;
+  }
+  .text-box {
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+  }
+  .mass {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    
+  }
+  .ts img{
+   max-width: 100%;
+    height: auto;
+    margin: 10px;
+    margin-top: 40px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;;
+  }
+       
+    </style>
+    <div class="jam">
+      <h1>welcome you all</h1>
+      <h2>janu bakery</h2>
+    </div>
+  
+  <section>
+    <div class="content">
+        <h2 >sourdrough</h2>
+        <p>His is the content for the left side
+            creates a container with two divs, each taking up
+               and content as needed.</p>
+    </div>
+    <div class="ss">
+        <img src="mum.png">
+    </div>
+    <div class="content">
+         
+      
+      <p> Is the content for the left side
+        creates a container with two divs, each taking up
+         50% of the width. </p>
+    </div>
+    <div class="ss">
+      <img src="mum.png">
+    </div>
+</section>
+<div class="man">
+  <h1>bakery images</h1>
+  <h2>welcome you all</h2>
+</div>
+
+
+<div class="container">
+  <div class="image-box">
+    <img src="wwww.png" alt="Image 1">
+  </div>
+  <div class="image-box">
+    <img src="mum.png" alt="Image 2">
+  </div>
+  <div class="image-box">
+    <img src="wwww.png" alt="Image 3">
+  </div>
+  <div class="image-box">
+    <img src="mum.png" alt="Image 4">
+  </div>
+</div>
+
+<div class="container">
+  <div class="text-box">
+    <p>bargur</p>
+  </div>
+  <div class="text-box">
+    <p>pizza</p>
+  </div>
+  <div class="text-box">
+    <p>sandwitch</p>
+  </div>
+  <div class="text-box">
+    <p>burger</p>
+  </div>
+</div>
+
+  <div class="mass">
+<div class="content">
+    <h2 >sourdrough</h2>
+    <p>His is the content for the left side
+        creates a container with two divs, each taking up
+           and content as needed.</p>
+</div>
+<div class="ts">
+    <img src="rr.jpg">
+</div>
+<div class="mass">
+  <div class="content">
+      <h2 >paindrough</h2>
+      <p>His is the content for the left side
+          creates a container with two divs, each taking up
+             and content as needed.</p>
+  </div>
+  
